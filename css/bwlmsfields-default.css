@@ -1,0 +1,202 @@
+#bwlmsfields_msg, .bwlmsfields_msg {
+	background: #F9F9F9;
+	border:1px solid lightGrey;
+	border-radius: 3px;
+	padding: 20px 0 0 0;
+}
+#bwlmsfields_msg {
+	width: 100%;
+}
+.bwlmsfields_msg {
+	width: 74%;
+}
+
+#bwlms-fields  { 
+	width: 100%;
+}
+#bwlms-fields fieldset {
+	border:none;
+	padding:0px
+}
+#bwlms-fields input {
+	font-family: inherit;
+}
+#bwlms-fields input[type="text"],
+#bwlms-fields input[type="password"]{
+	margin: 0 0 4px 0;
+}
+#bwlms-fields input[type="submit"] {
+	padding: 5px 6px 4px;
+	margin: 0 4px 0 0;
+}
+#bwlms-fields .button_div { 
+	margin-top:4px; 
+}
+#bwlms-fields .err {
+	width:100%;
+    padding: 5px;
+	font-family: inherit;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+
+/* Login Form and Registration Form */
+#bwlmsfields_reg, #bwlmsfields_login {
+	color: rgb(43, 43, 43);
+	font-family: Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+#bwlmsfields_reg input[type="text"],
+#bwlmsfields_reg textarea,
+#bwlmsfields_login input[type="text"],
+#bwlmsfields_login input[type="password"] {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	color: rgb(43, 43, 43);
+	padding: 8px 10px 8px;
+	background: none repeat scroll 0% 0% #fff;
+}
+
+#bwlmsfields_reg input,
+#bwlmsfields_reg button,
+#bwlmsfields_reg select,
+#bwlmsfields_reg textarea,
+#bwlmsfields_login input,
+#bwlmsfields_login button {
+	-moz-box-sizing: border-box;
+	font-size: 100%;
+	margin: 0px;
+	max-width: 100%;
+	vertical-align: baseline;
+}
+
+#bwlmsfields_reg input:focus,
+#bwlmsfields_reg textarea:focus,
+#bwlmsfields_login input:focus {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	outline: 0px none;
+}
+
+#bwlmsfields_reg select {
+	width:100%;
+	padding: 8px 10px 7px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	color: rgb(43, 43, 43);
+	margin: 5px 0;
+}
+
+#bwlmsfields_reg fieldset, #bwlmsfields_login fieldset {
+	border: none;
+	padding: 0;
+	margin: 40px 0;
+}
+#bwlmsfields_reg legend, #bwlmsfields_login legend {
+	font-size: 24px;
+	line-height: 1;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+#bwlmsfields_reg .form, #bwlmsfields_login .form {
+	margin:0;
+	padding:0;
+}
+#bwlmsfields_reg .clear, #bwlmsfields_login .clear {
+	clear:both;
+}
+#bwlmsfields_reg .holder, #bwlmsfields_login .holder {
+	background-color:#fff;
+}
+#bwlmsfields_reg .div_text, #bwlmsfields_reg .div_textarea, 
+#bwlmsfields_reg .div_select, #bwlmsfields_login .div_text,
+#bwlmsfields_reg .div_checkbox { 
+	width:74%;
+	margin:0 0 14px 0;
+}
+#bwlmsfields_login input[type="checkbox"] {
+	margin: 12px 2px;
+}
+#bwlmsfields_reg .div_textarea textarea,
+#bwlmsfields_reg .textbox, #bwlmsfields_login .textbox,
+#bwlmsfields_reg .username, #bwlmsfields_login .username,
+#bwlmsfields_reg .password, #bwlmsfields_login .password {
+	width:100%;
+}
+
+#bwlmsfields_reg textarea {
+	height:185px;
+}
+#bwlmsfields_reg .req { 
+	color: #bd3500;
+	font-size: 22px;
+	line-height: 50%;
+}
+
+#bwlmsfields_reg .req-text {
+	margin: 20px 0px 0px 5px;
+}
+
+#bwlmsfields_reg .noinput {
+	width:93%;
+	padding: 8px 10px 7px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	color: rgb(43, 43, 43);
+	margin: 5px 0;
+}
+
+#bwlmsfields_login .link-text {
+	width: 74%;
+}
+
+#tos {
+	margin-right:5px;
+}
+
+#bwlmsfields_reg .button_div, #bwlmsfields_login .button_div {
+	width:74%;
+	height:35px;
+	padding: 6px 0;
+	text-align: right;
+}
+
+
+/** for smaller screens */
+
+@media screen and (max-width: 720px) {
+	#bwlmsfields_reg label.text, #bwlmsfields_reg label.checkbox, 
+	#bwlmsfields_reg label.textarea , #bwlmsfields_reg label.select,
+	#bwlmsfields_login label, #bwlmsfields_reg .div_text, #bwlmsfields_reg .div_textarea, 
+	#bwlmsfields_reg .div_select, #bwlmsfields_login .div_text,
+	#bwlmsfields_reg .div_checkbox, #bwlmsfields_reg .button_div, #bwlmsfields_login .button_div {
+		float: none;
+	}
+	
+	#bwlmsfields_reg label.text, #bwlmsfields_reg label.checkbox, 
+	#bwlmsfields_reg label.textarea , #bwlmsfields_reg label.select,
+	#bwlmsfields_login label {
+		width: 90%;
+		padding: 5px 0 0 0;
+	}
+	#bwlmsfields_reg label.textarea {
+		height: 26px;
+	}
+	#bwlmsfields_reg .div_text, #bwlmsfields_reg .div_textarea, 
+	#bwlmsfields_reg .div_select, #bwlmsfields_login .div_text,
+	#bwlmsfields_reg .div_checkbox {
+		width: 98%;
+	}
+	#bwlmsfields_msg, .bwlmsfields_msg {
+		width: 100%;
+	}
+	
+	#bwlmsfields_reg .button_div, 
+	#bwlmsfields_login .button_div,
+	#bwlmsfields_login .link-text {
+		width:98%;
+	}
+}

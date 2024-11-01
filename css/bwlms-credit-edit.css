@@ -1,0 +1,44 @@
+.bwlmscredit-update-balance { background-color:white; z-index: 9999; }
+.bwlmscredit-update-balance>div { padding:12px; }
+.bwlmscredit-update-balance .ui-dialog-titlebar { line-height:24px; border-bottom: 1px solid #dedede; }
+.bwlmscredit-update-balance .ui-dialog-titlebar:hover { cursor:move; }
+.bwlmscredit-update-balance .ui-dialog-titlebar-close { float:right; }
+body.users-php .ui-widget-overlay { 
+	position:fixed; top:0; left:0; width:100%; height:100%; 
+	opacity:0.3; overflow:hidden; 
+	background: repeat-x scroll 50% 50% #333; 
+	z-index: 99; 
+}
+.bwlmscredit-adjustment-form { display:block; float:none; clear:both; padding:0; margin:0; }
+.bwlmscredit-adjustment-form .row { line-height:24px; margin:0; padding:0; float:none; margin: 0 0 4px 0; clear:both; }
+.bwlmscredit-adjustment-form .row.inline { float:left; clear:none; }}
+.bwlmscredit-update-balance .bwlmscredit-adjustment-form .row.inline span { font-size:18px; }
+.bwlmscredit-adjustment-form .row label { display:block; margin-bottom:0; }
+.bwlmscredit-adjustment-form .row input[type="text"] { width:90%; }
+.bwlmscredit-adjustment-form .row input[type="button"] { float:right; }
+input#bwlmscredit-update-users-balance-amount { width:25%; }
+#edit-bwlmscredit-balance #bwlmscredit-current.done { color:green; }
+.bwlmscredit-adjustment-form .row input.error { border-color:red; }
+
+.bwlmscredit-edit-log-entry { background-color:white; z-index: 99; }
+.bwlmscredit-edit-log-entry>div { padding:12px; }
+.bwlmscredit-edit-log-entry .ui-dialog-titlebar { line-height:24px; border-bottom: 1px solid #dedede; }
+.bwlmscredit-edit-log-entry .ui-dialog-titlebar:hover { cursor:move; }
+.bwlmscredit-edit-log-entry .ui-dialog-titlebar-close { float:right; }
+body .ui-widget-overlay { 
+	position:fixed; top:0; left:0; width:100%; height:100%; 
+	opacity:0.3; overflow:hidden; 
+	background: repeat-x scroll 50% 50% #333; 
+	z-index: 99; 
+}
+
+#edit-bwlmscredit-log-entry .bwlmscredit-adjustment-form .row label{ font-weight:bold; }
+#edit-bwlmscredit-log-entry .bwlmscredit-adjustment-form .row input[type="button"] { float:right; margin-left: 24px; }
+#edit-bwlmscredit-log-entry #bwlmscredit-current.done { color:green; }
+.bwlmscredit-adjustment-form .row input.error { border-color:red; }
+
+.bwlmscredit-export-points { background-color:white; z-index: 99; }
+.bwlmscredit-export-points>div { padding:12px; }
+.bwlmscredit-export-points .ui-dialog-titlebar { line-height:24px; border-bottom: 1px solid #dedede; }
+.bwlmscredit-export-points .ui-dialog-titlebar:hover { cursor:move; }
+.bwlmscredit-export-points .ui-dialog-titlebar-close { float:right; }
